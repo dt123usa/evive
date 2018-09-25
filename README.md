@@ -20,4 +20,4 @@ end_date    format: YYYY-MM-DD  default VALUE: 2017-12-02
 Here is an example endpoint to use 
 http://localhost:8080/compare/cast?start_date=2017-12-01&end_date=2017-12-31
 
-The response is an integer value representing the number of cast members that were in both a movie and a tv show released durring the timeframe given.
+The response is an integer value representing the number of cast members that were in both a movie and a tv show released between the start and end dates given.
